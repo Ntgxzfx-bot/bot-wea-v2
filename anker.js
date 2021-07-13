@@ -67,8 +67,8 @@ const vcard = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
             + 'END:VCARD'
 
-prefix = "#"
-name = "~ DARK BOT"
+prefix = "!"
+name = "~ NTGXZFX BOT"
 rdaftar = "HALLO KAK MAKASIH UDH DAFTAR YAA😁"
 rmenu = "HALLO KAK😊"
 botinfo = "MAU SEWA DONASI DLU YA KAK:)"
@@ -201,7 +201,7 @@ async function starts() {
 			}
 
 			const botNumber = dms.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6285865213494@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await dms.groupMetadata(from) : ''
